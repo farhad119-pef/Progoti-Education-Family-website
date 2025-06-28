@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>প্রগতি শিক্ষা পরিবার</title>
+  <style>
+    body { font-family: Kalpurush, sans-serif; margin: 0; padding: 0; background-color: #f9f9f9; }
+    header { background-color: #2e8b57; color: white; padding: 20px; text-align: center; }
+    nav { background-color: #006400; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    section { padding: 20px; }
+    footer { background-color: #2e8b57; color: white; text-align: center; padding: 15px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>প্রগতি শিক্ষা পরিবার</h1>
+  <p>শিক্ষা, অনুশীলন, উন্নতি</p>
+</header>
+
+<nav>
+  <a href="#about">আমাদের সম্পর্কে</a>
+  <a href="#courses">কোর্সসমূহ</a>
+  <a href="#admission">ভর্তি</a>
+  <a href="#gallery">গ্যালারি</a>
+  <a href="#contact">যোগাযোগ</a>
+</nav>
+
+<section id="about">
+  <h2>আমাদের সম্পর্কে</h2>
+  <p>প্রগতি শিক্ষা পরিবার একটি বিশ্বস্ত ও আধুনিক কোচিং সেন্টার যেখানে শিক্ষার্থীদের জন্য গঠনমূলক শিক্ষা, কঠোর অনুশীলন এবং নৈতিক গাইডলাইন প্রদান করা হয়।</p>
+</section>
+
+<section id="courses">
+  <h2>কোর্সসমূহ</h2>
+  <ul>
+    <li>৫ম থেকে ১০ম শ্রেণি - সকল বিষয়</li>
+    <li>SSC পরীক্ষার্থীদের বিশেষ প্রস্তুতি</li>
+    <li>Scholarship ও Admission প্রস্তুতি</li>
+  </ul>
+</section>
+
+<section id="admission">
+  <h2>ভর্তি ফর্ম</h2>
+  <form>
+    <label>নাম: <input type="text" name="name" required></label><br><br>
+    <label>শ্রেণি: <input type="text" name="class" required></label><br><br>
+    <label>অভিভাবকের নাম: <input type="text" name="guardian" required></label><br><br>
+    <label>ফোন নম্বর: <input type="tel" name="phone" required></label><br><br>
+    <button type="submit">ফর্ম জমা দিন</button>
+  </form>
+</section>
+
+<section id="gallery">
+  <h2>গ্যালারি</h2>
+  <p>শীঘ্রই শিক্ষার্থীদের ছবি ও ক্লাসের মুহূর্তগুলো যুক্ত করা হবে।</p>
+</section>
+
+<section id="contact">
+  <h2>যোগাযোগ</h2>
+  <p><strong>ঠিকানা:</strong> [আপনার ঠিকানা দিন]</p>
+  <p><strong>ফোন:</strong> ০১৭xxxxxxxx</p>
+  <p><strong>ইমেইল:</strong> progoti.edu@email.com</p>
+</section>
+
+<footer>
+  <p>&copy; ২০২৫ প্রগতি শিক্ষা পরিবার | সর্বস্বত্ব সংরক্ষিত</p>
+</footer>
+
+</body>
+</html>
